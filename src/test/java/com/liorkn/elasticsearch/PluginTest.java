@@ -37,7 +37,7 @@ public class PluginTest {
         // create test index
         String mappingJson = "{\n" +
                 "  \"mappings\": {\n" +
-                "    \"type\": {\n" +
+                "    \"_doc\": {\n" +
                 "    \"properties\": {\n" +
                 "      \"embedding_vector\": {\n" +
                 "        \"doc_values\": true,\n" +
